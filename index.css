@@ -115,11 +115,12 @@ a{
 #company_01{
     background-color: #D5E8FF;
     width: 100vw;
+
 }
 #company_01_title{
     text-align: center;
     font: 600 36px 'Roboto';
-    padding: 10px;
+    padding: 25px 0 10px 0px;
     color: #056FE0;
 }
 #company_01_hr{
@@ -149,54 +150,48 @@ a{
 
 /** Estilização separada destinada ao frame 2 do slide!**/
 #company_02{
-    background-color: #D5E8FF;
+    background-color: #D5F8FB;
     width: 100vw;
+    height: 100vh;
 }
 #company_02_title{
     text-align: center;
-    font-size: 56px;
-    font-weight: 600;
+    font: 600 30px 'Roboto';
+    padding: 25px 0px 10px 0;
     color: #056FE0;
-    font-family: 'Roboto';
-    padding-top: 25px;
-    padding-bottom: 10px;
 }
-#company_02_hr hr{
-    width: 75%;
-    border-color: #C9F0F9;
-}
-#company_02_grid-2columns{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+#company_02_hr{
+    display: block;
     margin: auto;
     width: 75%;
-    text-align: center;
 }
-#company_02_grid-2columns img{
+#company_02_grid_2cols{
+    display: grid;
+    grid-template-columns: 1fr;
     width: 100%;
+    margin: auto;
 }
-
-@media screen and (max-width: 1366px) {
-    #company_02_title{
-        padding-top: 10px;
-        font-size: 32px;
-    }
-    #company_02_grid-2columns img{
-        margin: auto;
-        width: 90%;
-    }
+#company_02_text{
+    font: 400 18px 'Roboto';
+    text-align: justify;
+    line-height: 1.5;
+    width: 80%;
+    margin: auto;
 }
-
+#company_02_img img{
+    width: 95%;
+}
 
 /** Estilização separada destinada ao frame 3 do slide!**/
 
 #company_03{
     background-color: #FFE8DA;
     width: 100vw;
+    height: 100vh;
 }
 #company_03_title{
     text-align: center;
-    font-size: 56px;
+    font-size: 36px;
     font-weight: 600;
     color: #056FE0;
     font-family: 'Roboto';
@@ -208,41 +203,17 @@ a{
     border-color: #C9F0F9;
 }
 #company_03_text{
-    margin: 30px auto auto auto;
-    width: 75%;
-    font-family: 'Roboto';
-    font-size: 20px;
-    font-weight: 400;
+    font: 400 18px 'Roboto';
+    text-align: justify;
     line-height: 1.5;
-    text-align: left;
+    width: 80%;
+    margin: auto;
 }
 #company_03_text img{
     width: 100%;
     margin-top: 20px;
 }
 
-
-@media screen and (max-width: 1366px) {
-    #company_03_title{
-        padding-top: 10px;
-        font-size: 32px;
-    }
-    #company_03_text{
-        margin: 30px auto auto auto;
-        width: 75%;
-        font-family: 'Roboto';
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5;
-        text-align: left;
-    }
-    #company_03_text img{
-        display: block;
-        margin: auto;
-        width: 90%;
-        margin-top: 20px;
-    }
-}
 
 /** Estilização separada destinada ao frame 4 do slide!**/
 
