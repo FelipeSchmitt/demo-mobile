@@ -129,7 +129,7 @@ a{
     width: 75%;
 }
 
-#company_01_grid_2cols{
+#company_01_grid_1col{
     display: grid;
     grid-template-columns: 1fr;
     width: 80%;
@@ -137,7 +137,7 @@ a{
 }
 #company_01_text{
     font: 400 18px 'Roboto';
-    line-height: 1.5;
+    line-height: 1.8;
     margin: auto;
     text-align: justify;
 }
@@ -165,7 +165,7 @@ a{
     margin: auto;
     width: 75%;
 }
-#company_02_grid_2cols{
+#company_02_grid_1col{
     display: grid;
     grid-template-columns: 1fr;
     width: 100%;
@@ -174,7 +174,7 @@ a{
 #company_02_text{
     font: 400 18px 'Roboto';
     text-align: justify;
-    line-height: 1.5;
+    line-height: 1.8;
     width: 80%;
     margin: auto;
 }
@@ -205,13 +205,17 @@ a{
 #company_03_text{
     font: 400 18px 'Roboto';
     text-align: justify;
-    line-height: 1.5;
+    line-height: 1.8;
     width: 80%;
     margin: auto;
 }
-#company_03_text img{
+#company_03_img{
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+#company_03_img img{
     width: 100%;
-    margin-top: 20px;
 }
 
 
@@ -221,10 +225,11 @@ a{
 #company_04{
     background-color: #D4EEFA;
     width: 100vw;
+
 }
 #company_04_title{
     text-align: center;
-    font-size: 56px;
+    font-size: 36px;
     font-weight: 600;
     color: #056FE0;
     font-family: 'Roboto';
@@ -237,33 +242,16 @@ a{
 }
 #company_04_text{
     margin: 30px auto auto auto;
-    width: 75%;
-    font-family: 'Roboto';
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 1.5;
-    text-align: left;
+    width: 80%;
+    font: 400 18px'Roboto';
+    line-height: 1.8;
+    text-align: justify;
 }
-#company_04_text img{
+#company_04_img img{
     width: 100%;
     padding-top: 20px;
 }
 
-@media screen and (max-width: 1366px) {
-    #company_04_title{
-        padding-top: 10px;
-        font-size: 32px;
-    }
-    #company_04_text{
-        font-size: 16px;
-    }
-    #company_04_text img{
-        display: block;
-        margin: 20px auto;
-        width: 90%;
-    }
-
-}
 
 /** Estilização separada destinada ao frame 5 do slide!**/
 
@@ -272,10 +260,11 @@ a{
     background-color: #D5F8FB;
     width: 100vw;
 
+
 }
 #company_05_title{
     text-align: center;
-    font-size: 56px;
+    font-size: 36px;
     font-weight: 600;
     color: #056FE0;
     font-family: 'Roboto';
@@ -288,16 +277,15 @@ a{
 }
 #company_05_text{
     margin: 30px auto auto auto;
-    width: 75%;
-    font-family: 'Roboto';
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 1.5;
+    width: 80%;
+    font: 400 18px 'Roboto';
+    line-height: 1.8;
     text-align: left;
 }
-#company_05_text img{
-    width: 100%;
-    margin-top: 20px;
+#company_05_img img{
+    display: block;
+    margin: auto;
+    width: 90%;
 }
 
 
