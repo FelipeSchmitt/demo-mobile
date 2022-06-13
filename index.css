@@ -45,7 +45,7 @@ body {
     text-align: center;
 }
 .btn:hover, .btn:active {
-    box-shadow: 0 0 0 4px #363636;
+    box-shadow: 0 0 0 3px #363636;
 }
 
 /** Content é uma div presente em cada slide, essa div tem como objetivo preencher todo o espaço da tela do usuário para exibir
@@ -298,7 +298,7 @@ a{
 }
 #company_06_title{
     text-align: center;
-    font-size: 56px;
+    font-size: 36px;
     font-weight: 600;
     color: #056FE0;
     font-family: 'Roboto';
@@ -311,7 +311,7 @@ a{
 }
 #company_06_text{
     margin: 30px auto auto auto;
-    width: 75%;
+    width: 80%;
     font-family: 'Roboto';
     font-size: 20px;
     font-weight: 400;
@@ -320,23 +320,6 @@ a{
 }
 #company_06_text img{
     width: 100%;
-    margin-top: 20px;
-}
-
-@media screen and (max-width: 1366px) {
-    #company_06_title{
-        padding-top: 10px;
-        font-size: 32px;
-    }
-    #company_06_text{
-        font-size: 16px;
-    }
-    #company_06_text img{
-        display: block;
-        margin: 20px auto;
-        width: 90%;
-    }
-
 }
 
 /** Estilização separada destinada ao frame 7 do slide!**/
@@ -348,7 +331,7 @@ a{
 }
 #company_07_title{
     text-align: center;
-    font-size: 56px;
+    font-size: 32px;
     font-weight: 600;
     color: #056FE0;
     font-family: 'Roboto';
@@ -358,27 +341,19 @@ a{
     border-color: #C9F0F9;
 }
 #company_07_grid_2col{
-    width: 65%;
+    width: 90%;
     margin: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     text-align: center;
 }
 #company_07_text1{
-    padding-right: 50px;
     border-style: solid;
-    border-left: none;
-    border-top: none;
-    border-bottom: none;
     border-width: 3px;
     color: white;
 }
 #company_07_text2{
-    padding-left: 50px;
     border-style: solid;
-    border-right: none;
-    border-top: none;
-    border-bottom: none;
     border-width: 3px;
     color: white;
 }
@@ -388,11 +363,11 @@ a{
     color: black;
     font-family: 'Roboto';
     font-weight: 400;
-    font-size: 24px;
+    font-size: 16px;
 }
 #company_07_text1 h1, #company_07_text2 h1{
-    font: 600 44px 'Roboto';
-    padding: 15px;
+    font: 600 24px 'Roboto';
+    padding: 15px 0px 15px 0px;
     color: white;
 }
 #company_07_text1 h1{
@@ -400,66 +375,6 @@ a{
 }
 #company_07_text2 h1{
     background-color: #FF9900;
-}
-
-
-@media screen and (max-width: 1366px) {
-    #company_07_title{
-        font-size: 32px;
-    }
-    #company_07_text1 h1, #company_07_text2 h1{
-        font: 600 24px 'Roboto';
-    }
-    #company_07_text1 li, #company_07_text2 li{
-        list-style: none;
-        line-height: 2;
-        color: black;
-        font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 16px;
-    }
-
-
-}
-
-@media screen and (max-width: 840px) {
-    #company_07_grid_2col{
-        display: grid;
-        grid-template-columns: 1fr;
-        width: 90%;
-    }
-    #company_07_text1{
-        padding-right: 0px;
-        border-style: solid;
-        border-width: 3px;
-        color: white;
-    }
-    #company_07_text2{
-        padding-left: 0px;
-        border-style: solid;
-        border-width: 3px;
-        color: white;
-    }
-    #company_07_text1 li, #company_07_text2 li{
-        list-style: none;
-        line-height: 2;
-        color: black;
-        font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 18px;
-    }
-    #company_07_text1 h1, #company_07_text2 h1{
-        font: 600 24px 'Roboto';
-        padding: 15px;
-        color: white;
-    }
-    #company_07_text1 h1{
-        background-color: #0BD7A4;
-    }
-    #company_07_text2 h1{
-        background-color: #FF9900;
-    }
-
 }
 
 
@@ -472,10 +387,8 @@ a{
 }
 #company_08_title{
     text-align: center;
-    font-size: 56px;
-    font-weight: 600;
+    font: 600 32px 'Roboto';
     color: #056FE0;
-    font-family: 'Roboto';
 
 
 }
@@ -486,8 +399,8 @@ a{
 #company_08_grid_2cols{
     display: grid;
     margin: auto;
-    width: 75%;
-    grid-template-columns: 1fr 1fr;
+    width: 85%;
+    grid-template-columns: 1fr;
 }
 #company_08_grid_2cols #img_01{
     display: block;
@@ -498,40 +411,6 @@ a{
     display: block;
     margin: auto;
     width: 70%;
-}
-
-@media screen and (max-width: 1366px) {
-    #company_08_title{
-        font-size: 32px;
-    }
-    #company_08_grid_2cols #img_01{
-        display: block;
-        margin: auto;
-        width: 90%;
-    }
-    #company_08_grid_2cols #img_02{
-        display: block;
-        margin: auto;
-        width: 65%;
-    }
-
-
-}
-
-@media screen and (max-width: 840px) {
-    #company_08_grid_2cols{
-        display: grid;
-        grid-template-columns: 1fr;
-        width: 100%;
-    }
-    #company_08_grid_2cols img{
-    }
-    #company_08_grid_2cols #img_01{
-        width: 90%;
-    }
-    #company_08_grid_2cols #img_02{
-        width: 80%;
-    }
 }
 
 
@@ -601,10 +480,8 @@ a{
 }
 #company_10_title{
     text-align: center;
-    font-size: 52px;
-    font-weight: 600;
+    font: 600 30px 'Roboto';
     color: #056FE0;
-    font-family: 'Roboto';
     padding-top: 25px;
     padding-bottom: 10px;
 }
@@ -615,43 +492,23 @@ a{
 #company_10_grid_2cols{
     display: grid;
     margin: auto;
-    grid-template-columns: 1fr 1fr;
-    width: 70%;
-    height: 70vh;
+    grid-template-columns: 1fr;
+    width: 80%;
     align-items: center;
 }
 
 #company_10_text{
-    font: 400 22px 'Roboto';
+    font: 400 18px 'Roboto';
     color: black;
     text-align: justify;
-    line-height: 1.5;
+    line-height: 1.8;
 }
 #company_10_img img{
     display: block;
-    float: right;
-    width: 70%;
+    margin: auto;
+    width: 100%;
 }
 
-@media screen and (max-width: 1366px) {
-    #company_10_title{
-        padding-top: 10px;
-        font-size: 32px;
-    }
-    #company_10_text{
-        font: 400 16px 'Roboto';
-        color: black;
-        text-align: justify;
-        line-height: 1.5;
-    }
-    #company_10_img img{
-        display: block;
-        float: right;
-        width: 70%;
-    }
-
-
-}
 
 /** Estilização separada destinada ao frame 11 do slide!**/
 
@@ -661,11 +518,11 @@ a{
     width: 100vw;
 }
 #company_11_title{
+    width: 95%;
+    margin: auto;
     text-align: center;
-    font-size: 52px;
-    font-weight: 600;
+    font: 600 30px 'Roboto';
     color: #056FE0;
-    font-family: 'Roboto';
     padding-top: 25px;
     padding-bottom: 10px;
 }
@@ -686,19 +543,18 @@ a{
 #company_11_grid_2cols{
     display: grid;
     margin: auto;
-    grid-template-columns: 1fr 1fr;
-    width: 75%;
+    grid-template-columns: 1fr;
+    text-align: center;
+    width: 85%;
 }
 #company_11_text1{
     height: 100px;
     border: solid;
     border-color: #f3f8ff;
     border-width: 2px;
-    padding-right: 40px;
-    border-left: none;
-    border-top: none;
-    border-bottom: none;
     height: 100%;
+    margin-bottom: 20px;
+
 }
 
 #company_11_text1 h1{
@@ -710,6 +566,7 @@ a{
     font: 500 18px 'Roboto';
     list-style: none;
     line-height: 1.5;
+    padding: 2px 0 2px 0;
 }
 
 #company_11_text2{
@@ -717,11 +574,8 @@ a{
     border: solid;
     border-color: #f3f8ff;
     border-width: 2px;
-    padding-left: 40px;
-    border-right: none;
-    border-top: none;
-    border-bottom: none;
     height: 100%;
+    margin-bottom: 20px;
 }
 
 #company_11_text2 h1{
@@ -733,116 +587,6 @@ a{
     font: 500 18px 'Roboto';
     list-style: none;
     line-height: 1.5;
-}
-
-@media screen and (max-width: 1366px) {
-    #company_11_title{
-        padding-top: 10px;
-        font-size: 32px;
-    }
-    #company_11_image{
-        width: 80%;
-        display: block;
-        margin: 20px auto;
-    }
-    #company_11_grid_2cols{
-        display: grid;
-        margin: auto;
-        padding-bottom: 100px;
-        grid-template-columns: 1fr 1fr;
-        width: 75%;
-    }
-    #company_11_text1 h1{
-        text-align: center;
-        font: 600 18px 'Roboto';
-        color: #1D67B0;
-    }
-    #company_11_text1 li{
-        font: 500 14px 'Roboto';
-        list-style: none;
-        line-height: 1.5;
-    }
-    
-    #company_11_text2{
-        height: 100px;
-        border: solid;
-        border-color: #f3f8ff;
-        border-width: 2px;
-        padding-left: 40px;
-        border-right: none;
-        border-top: none;
-        border-bottom: none;
-        height: 100%;
-    }
-    
-    #company_11_text2 h1{
-        text-align: center;
-        font: 600 18px 'Roboto';
-        color: #EA480F;
-    }
-    #company_11_text2 li{
-        font: 500 14px 'Roboto';
-        list-style: none;
-        line-height: 1.5;
-    }
-    
-
-
-}
-
-@media screen and (max-width: 840px) {
-    #company_11_grid_2cols{
-        display: grid;
-        grid-template-columns: 1fr;
-        width: 95%;
-    }
-    #company_11_text1{
-        border: solid;
-        border-color: #f3f8ff;
-        border-width: 2px;
-        padding: 0;
-        text-align: center;
-
-        height: 100%;
-        width: 100%;
-    }
-    #company_11_text1 h1{
-        text-align: center;
-        font: 600 24px 'Roboto';
-        color: #1D67B0;
-        background-color: rgb(255, 255, 255);
-        padding:10px;
-    }
-    #company_11_text1 li{
-        font: 500 16px 'Roboto';
-        list-style: none;
-        line-height: 2;
-    }
-    #company_11_text2{
-
-        border: solid;
-        border-color: #f3f8ff;
-        border-width: 2px;
-        padding: 0;
-        text-align: center;
-
-        height: 100%;
-        width: 100%
-    }
-    #company_11_text2 h1{
-        text-align: center;
-        font: 600 24px 'Roboto';
-        color: #EA480F;
-        padding:10px;
-        background-color: rgb(0, 0, 0);
-
-    }
-    #company_11_text2 li{
-        font: 500 16px 'Roboto';
-        list-style: none;
-        line-height: 2;
-    }
-    
 }
 
 
