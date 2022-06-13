@@ -1,0 +1,941 @@
+/** Estilização da biblioteca Layer.JS adaptada para nossas necessidades, botões, caixa de slide, etc **/
+
+html {
+    height: 100%;
+}
+body {
+    height:100%;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+[lj-type="stage"] {
+    top: 50px!important;
+    width: 100%;
+    height: calc(100% - 50px);
+    margin: auto;
+    overflow-y: scroll;
+}
+.btn-left {
+    float: right;
+}
+#arrows {
+    width: 100%;
+}
+#arrows>div {
+    width: 100%;
+    height: 50px;
+}
+.btn-right {
+    float: right;
+}
+.btn {
+    margin: 5px;
+    background-color: #2972C9;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+    color:#E6E6E6;
+    padding: 10px;
+    border-radius: 50%;
+    width: 20px;
+    pointer-events: all;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.btn:hover, .btn:active {
+    box-shadow: 0 0 0 4px #363636;
+}
+
+/** Content é uma div presente em cada slide, essa div tem como objetivo preencher todo o espaço da tela do usuário para exibir
+o conteúdo desejado, por isso sempre crie seu conteúdo em html dentro da div #content, o id 
+#nav é o espaço destinado para estilização do nosso menu de navegação **/
+
+
+#content{
+    background-color: white;
+    width: 100vw;
+
+}
+div#nav{
+    background-color: transparent;
+    display: flex;
+    height: 50px!important;
+    width: 99%;
+}
+#home, #company, #vision, #solution{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font: 600 24px 'Roboto';
+    line-height: 46px;
+    border-radius: 7px;
+    margin: 2px;
+}
+a{
+    text-decoration: none;
+    width: 100%;
+}
+#home{
+    background-color: #056FE0;
+}
+#company{
+    background-color: #42C583;
+}
+#vision{
+    background-color: #C8782C;
+}
+#solution{
+    background-color: #AD1B59;
+}
+#home:hover, #company:hover, #vision:hover, #solution:hover{
+    box-shadow: inset 0em 0em 0em 2px white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 840px) {
+    #home, #company, #vision, #solution{
+        width: 100%;
+        text-align: center;
+        color: white;
+        font: 600 13px 'Roboto';
+        line-height: 46px;
+        border-radius: 0px;
+        margin: 2px;
+    }
+    a{
+        text-decoration: none;
+        width: 100%;
+    }
+
+}
+/** Estilização separada destinada ao frame 1 do slide!**/
+
+#company_01{
+    background-color: #D5E8FF;
+    width: 100vw;
+}
+#company_01_title{
+    text-align: center;
+    font: 600 36px 'Roboto';
+    padding: 10px;
+    color: #056FE0;
+}
+#company_01_hr{
+    display: block;
+    margin: auto;
+    width: 75%;
+}
+
+#company_01_grid_2cols{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 80%;
+    margin: auto;
+}
+#company_01_text{
+    font: 400 18px 'Roboto';
+    line-height: 1.5;
+    margin: auto;
+    text-align: justify;
+}
+#company_01_img img{
+    width: 100%;
+}
+
+
+
+
+/** Estilização separada destinada ao frame 2 do slide!**/
+#company_02{
+    background-color: #D5E8FF;
+    width: 100vw;
+}
+#company_02_title{
+    text-align: center;
+    font-size: 56px;
+    font-weight: 600;
+    color: #056FE0;
+    font-family: 'Roboto';
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+#company_02_hr hr{
+    width: 75%;
+    border-color: #C9F0F9;
+}
+#company_02_grid-2columns{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    width: 75%;
+    text-align: center;
+}
+#company_02_grid-2columns img{
+    width: 100%;
+}
+
+@media screen and (max-width: 1366px) {
+    #company_02_title{
+        padding-top: 10px;
+        font-size: 32px;
+    }
+    #company_02_grid-2columns img{
+        margin: auto;
+        width: 90%;
+    }
+}
+
+
+/** Estilização separada destinada ao frame 3 do slide!**/
+
+#company_03{
+    background-color: #FFE8DA;
+    width: 100vw;
+}
+#company_03_title{
+    text-align: center;
+    font-size: 56px;
+    font-weight: 600;
+    color: #056FE0;
+    font-family: 'Roboto';
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+#company_03_hr hr{
+    width: 75%;
+    border-color: #C9F0F9;
+}
+#company_03_text{
+    margin: 30px auto auto auto;
+    width: 75%;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+#company_03_text img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 1366px) {
+    #company_03_title{
+        padding-top: 10px;
+        font-size: 32px;
+    }
+    #company_03_text{
+        margin: 30px auto auto auto;
+        width: 75%;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+    #company_03_text img{
+        display: block;
+        margin: auto;
+        width: 90%;
+        margin-top: 20px;
+    }
+}
+
+/** Estilização separada destinada ao frame 4 do slide!**/
+
+
+#company_04{
+    background-color: #D4EEFA;
+    width: 100vw;
+}
+#company_04_title{
+    text-align: center;
+    font-size: 56px;
+    font-weight: 600;
+    color: #056FE0;
+    font-family: 'Roboto';
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+#company_04_hr hr{
+    width: 75%;
+    border-color: #C9F0F9;
+}
+#company_04_text{
+    margin: 30px auto auto auto;
+    width: 75%;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+#company_04_text img{
+    width: 100%;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 1366px) {
+    #company_04_title{
+        padding-top: 10px;
+        font-size: 32px;
+    }
+    #company_04_text{
+        font-size: 16px;
+    }
+    #company_04_text img{
+        display: block;
+        margin: 20px auto;
+        width: 90%;
+    }
+
+}
+
+/** Estilização separada destinada ao frame 5 do slide!**/
+
+
+#company_05{
+    background-color: #D5F8FB;
+    width: 100vw;
+
+}
+#company_05_title{
+    text-align: center;
+    font-size: 56px;
+    font-weight: 600;
+    color: #056FE0;
+    font-family: 'Roboto';
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+#company_05_hr hr{
+    width: 75%;
+    border-color: #C9F0F9;
+}
+#company_05_text{
+    margin: 30px auto auto auto;
+    width: 75%;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+#company_05_text img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+/** Estilização separada destinada ao frame 6 do slide!**/
+
+
+#company_06{
+    background-color: #D5E8FF;
+    width: 100vw;
+}
+#company_06_title{
+    text-align: center;
+    font-size: 56px;
+    font-weight: 600;
+    color: #056FE0;
+    font-family: 'Roboto';
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+#company_06_hr hr{
+    width: 75%;
+    border-color: #C9F0F9;
+}
+#company_06_text{
+    margin: 30px auto auto auto;
+    width: 75%;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+#company_06_text img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1366px) {
+    #company_06_title{
+        padding-top: 10px;
+        font-size: 32px;
+    }
+    #company_06_text{
+        font-size: 16px;
+    }
+    #company_06_text img{
+        display: block;
+        margin: 20px auto;
+        width: 90%;
+    }
+
+}
+
+/** Estilização separada destinada ao frame 7 do slide!**/
+
+
+#company_07{
+    background-color: #D5F8FB;
+    width: 100vw;
+}
+#company_07_title{
+    text-align: center;
+    font-size: 56px;
+    font-weight: 600;
+    color: #056FE0;
+    font-family: 'Roboto';
+}
+#company_07_hr hr{
+    width: 75%;
+    border-color: #C9F0F9;
+}
+#company_07_grid_2col{
+    width: 65%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+#company_07_text1{
+    padding-right: 50px;
+    border-style: solid;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-width: 3px;
+    color: white;
+}
+#company_07_text2{
+    padding-left: 50px;
+    border-style: solid;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-width: 3px;
+    color: white;
+}
+#company_07_text1 li, #company_07_text2 li{
+    list-style: none;
+    line-height: 2;
+    color: black;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+}
+#company_07_text1 h1, #company_07_text2 h1{
+    font: 600 44px 'Roboto';
+    padding: 15px;
+    color: white;
+}
+#company_07_text1 h1{
+    background-color: #0BD7A4;
+}
+#company_07_text2 h1{
+    background-color: #FF9900;
+}
+
+
+@media screen and (max-width: 1366px) {
+    #company_07_title{
+        font-size: 32px;
+    }
+    #company_07_text1 h1, #company_07_text2 h1{
+        font: 600 24px 'Roboto';
+    }
+    #company_07_text1 li, #company_07_text2 li{
+        list-style: none;
+        line-height: 2;
+        color: black;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+
+}
+
+@media screen and (max-width: 840px) {
+    #company_07_grid_2col{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+    #company_07_text1{
+        padding-right: 0px;
+        border-style: solid;
+        border-width: 3px;
+        color: white;
+    }
+    #company_07_text2{
+        padding-left: 0px;
+        border-style: solid;
+        border-width: 3px;
+        color: white;
+    }
+    #company_07_text1 li, #company_07_text2 li{
+        list-style: none;
+        line-height: 2;
+        color: black;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 18px;
+    }
+    #company_07_text1 h1, #company_07_text2 h1{
+        font: 600 24px 'Roboto';
+        padding: 15px;
+        color: white;
+    }
+    #company_07_text1 h1{
+        background-color: #0BD7A4;
+    }
+    #company_07_text2 h1{
+        background-color: #FF9900;
+    }
+
+}
+
+
+/** Estilização separada destinada ao frame 8 do slide!**/
+
+
+#company_08{
+    background-color: #FCECE2;
+    width: 100vw;
+}
+#company_08_title{
+    text-align: center;
+    font-size: 56px;
+    font-weight: 600;
+    color: #056FE0;
+    font-family: 'Roboto';
+
+
+}
+#company_08_hr hr{
+    width: 75%;
+    border-color: #C9F0F9;
+}
+#company_08_grid_2cols{
+    display: grid;
+    margin: auto;
+    width: 75%;
+    grid-template-columns: 1fr 1fr;
+}
+#company_08_grid_2cols #img_01{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+#company_08_grid_2cols #img_02{
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
+@media screen and (max-width: 1366px) {
+    #company_08_title{
+        font-size: 32px;
+    }
+    #company_08_grid_2cols #img_01{
+        display: block;
+        margin: auto;
+        width: 90%;
+    }
+    #company_08_grid_2cols #img_02{
+        display: block;
+        margin: auto;
+        width: 65%;
+    }
+
+
+}
+
+@media screen and (max-width: 840px) {
+    #company_08_grid_2cols{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    #company_08_grid_2cols img{
+    }
+    #company_08_grid_2cols #img_01{
+        width: 90%;
+    }
+    #company_08_grid_2cols #img_02{
+        width: 80%;
+    }
+}
+
+
+/** Estilização separada destinada ao frame 9 do slide!**/
+
+
+#company_09{
+    background-color: #FFFFFF;
+    width: 100vw;
+}
+#company_09_title{
+    text-align: center;
+    font-size: 56px;
+    font-weight: 600;
+    color: #056FE0;
+    font-family: 'Roboto';
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+#company_09_hr hr{
+    width: 75%;
+    border-color: #C9F0F9;
+}
+#company_09_image_map{
+    display: block;
+    margin: 20px auto auto auto;
+    width: 80%;
+}
+#company_09_image_map img{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+#company_09_sub_title{
+    padding: 5px;
+    font: 600 28px 'Roboto';
+    color: #e68a00;
+    text-align: center;
+}
+
+@media screen and (max-width: 1366px) {
+    #company_09_title{
+        padding-top: 10px;
+        font-size: 32px;
+    }
+    #company_09_image_map img{
+        display: block;
+        margin: auto;
+        width: 80%;
+    }
+    #company_09_sub_title{
+        padding: 8px;
+        font: 600 20px 'Roboto';
+        color: #e68a00;
+        text-align: center;
+    }
+
+
+}
+
+/** Estilização separada destinada ao frame 10 do slide!**/
+
+
+#company_10{
+    background-color: #E7FAFD;
+    width: 100vw;
+}
+#company_10_title{
+    text-align: center;
+    font-size: 52px;
+    font-weight: 600;
+    color: #056FE0;
+    font-family: 'Roboto';
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+#company_10_hr hr{
+    width: 75%;
+    border-color: #C9F0F9;
+}
+#company_10_grid_2cols{
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    height: 70vh;
+    align-items: center;
+}
+
+#company_10_text{
+    font: 400 22px 'Roboto';
+    color: black;
+    text-align: justify;
+    line-height: 1.5;
+}
+#company_10_img img{
+    display: block;
+    float: right;
+    width: 70%;
+}
+
+@media screen and (max-width: 1366px) {
+    #company_10_title{
+        padding-top: 10px;
+        font-size: 32px;
+    }
+    #company_10_text{
+        font: 400 16px 'Roboto';
+        color: black;
+        text-align: justify;
+        line-height: 1.5;
+    }
+    #company_10_img img{
+        display: block;
+        float: right;
+        width: 70%;
+    }
+
+
+}
+
+/** Estilização separada destinada ao frame 11 do slide!**/
+
+
+#company_11{
+    background-color: #D5E8FF;
+    width: 100vw;
+}
+#company_11_title{
+    text-align: center;
+    font-size: 52px;
+    font-weight: 600;
+    color: #056FE0;
+    font-family: 'Roboto';
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+#company_11_hr hr{
+    width: 75%;
+    border-color: #C9F0F9;
+}
+#company_11_image{
+    width: 80%;
+    display: block;
+    margin: 40px auto;
+}
+#company_11_image img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+#company_11_grid_2cols{
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    width: 75%;
+}
+#company_11_text1{
+    height: 100px;
+    border: solid;
+    border-color: #f3f8ff;
+    border-width: 2px;
+    padding-right: 40px;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    height: 100%;
+}
+
+#company_11_text1 h1{
+    text-align: center;
+    font: 600 24px 'Roboto';
+    color: #1D67B0;
+}
+#company_11_text1 li{
+    font: 500 18px 'Roboto';
+    list-style: none;
+    line-height: 1.5;
+}
+
+#company_11_text2{
+    height: 100px;
+    border: solid;
+    border-color: #f3f8ff;
+    border-width: 2px;
+    padding-left: 40px;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    height: 100%;
+}
+
+#company_11_text2 h1{
+    text-align: center;
+    font: 600 24px 'Roboto';
+    color: #EA480F;
+}
+#company_11_text2 li{
+    font: 500 18px 'Roboto';
+    list-style: none;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 1366px) {
+    #company_11_title{
+        padding-top: 10px;
+        font-size: 32px;
+    }
+    #company_11_image{
+        width: 80%;
+        display: block;
+        margin: 20px auto;
+    }
+    #company_11_grid_2cols{
+        display: grid;
+        margin: auto;
+        padding-bottom: 100px;
+        grid-template-columns: 1fr 1fr;
+        width: 75%;
+    }
+    #company_11_text1 h1{
+        text-align: center;
+        font: 600 18px 'Roboto';
+        color: #1D67B0;
+    }
+    #company_11_text1 li{
+        font: 500 14px 'Roboto';
+        list-style: none;
+        line-height: 1.5;
+    }
+    
+    #company_11_text2{
+        height: 100px;
+        border: solid;
+        border-color: #f3f8ff;
+        border-width: 2px;
+        padding-left: 40px;
+        border-right: none;
+        border-top: none;
+        border-bottom: none;
+        height: 100%;
+    }
+    
+    #company_11_text2 h1{
+        text-align: center;
+        font: 600 18px 'Roboto';
+        color: #EA480F;
+    }
+    #company_11_text2 li{
+        font: 500 14px 'Roboto';
+        list-style: none;
+        line-height: 1.5;
+    }
+    
+
+
+}
+
+@media screen and (max-width: 840px) {
+    #company_11_grid_2cols{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 95%;
+    }
+    #company_11_text1{
+        border: solid;
+        border-color: #f3f8ff;
+        border-width: 2px;
+        padding: 0;
+        text-align: center;
+
+        height: 100%;
+        width: 100%;
+    }
+    #company_11_text1 h1{
+        text-align: center;
+        font: 600 24px 'Roboto';
+        color: #1D67B0;
+        background-color: rgb(255, 255, 255);
+        padding:10px;
+    }
+    #company_11_text1 li{
+        font: 500 16px 'Roboto';
+        list-style: none;
+        line-height: 2;
+    }
+    #company_11_text2{
+
+        border: solid;
+        border-color: #f3f8ff;
+        border-width: 2px;
+        padding: 0;
+        text-align: center;
+
+        height: 100%;
+        width: 100%
+    }
+    #company_11_text2 h1{
+        text-align: center;
+        font: 600 24px 'Roboto';
+        color: #EA480F;
+        padding:10px;
+        background-color: rgb(0, 0, 0);
+
+    }
+    #company_11_text2 li{
+        font: 500 16px 'Roboto';
+        list-style: none;
+        line-height: 2;
+    }
+    
+}
+
+
+/** Estilização separada destinada ao frame 12 do slide!**/
+
+
+#company_12{
+    background-color: #D5F8FB;
+    width: 100vw;
+}
+#company_12_title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: #056FE0;
+    font-family: 'Roboto';
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+#company_12_hr hr{
+    width: 75%;
+    border-color: #C9F0F9;
+}
+#company_12_grid_2cols{
+    display: grid;
+    margin: 20px auto 0 auto;
+    width: 85%;
+    grid-template-columns: 1fr;
+}
+#company_12_text{
+    display: block;
+    margin: auto;
+    width: 100%;
+    font: 400 18px 'Roboto';
+    color: black;
+    text-align: justify;
+    line-height: 1.5;
+}
+#company_12_img{
+    display: flex;
+
+    width: 100%;
+}
+#company_12_img img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+
+
+/** Atenção, para criar novos frames(slides), por favor tente seguir o padrão dos demais, conteúdo sempre dentro da div id #content, crie divs especificas para cada frame, não tente reaproveitar
+estilização, pois isso dificulta manutenções no futuro...**/
+

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corporate Demo</title>
+
+<script>
+/**
+
+    window.onresize = function(){
+        if(window.matchMedia("(min-width: 841px)").matches){
+            window.location.href="INDEX-demo-corporativa.html"	
+        }
+};
+**/
+</script>
+    <script src="index.js"></script>
+    <script src="layer.js"></script>
+    <link href="https://keycdn.layerjs.org/libs/layerjs/layerjs-0.6.4.css" type="text/css" rel="stylesheet" /> 
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div lj-type="layer" lj-native-scroll="false" id="arrows">
+        <div id="nav">
+            <a href="#frame1"><div id="home">Home</div></a>
+            <a href="#frame4"><div id="company">Company</div></a>
+            <a href="#frame7"><div id="vision">Vision</div></a>
+            <a href="#frame14"><div id="solution">Solution</div></a>
+            <a class="btn-left btn" id="btn-left" href="#slider.!left&p=right"> < </a>
+            <a class="btn-right btn" id="btn-right" href="#slider.!right&p=left"> > </a>
+      <!--  The control frame. The frame will be centered in the stage. -->
+        <!--  the link will trigger the transition to the previous frame of the currently active frame in layer "slider". -->
+    </div>
+      </div>
+
+    <div lj-type="stage">
+        <!--  Define a single stage.  -->
+        <!--  Define the layer "slider" for the slides.  -->
+        <!--  The default frame is "frame1" -->
+        <div lj-type="layer" lj-name="slider" lj-default-frame="frame1" lj-native-scroll="false">
+          <!--  Define one frame per slide.  -->
+          <!--  lj-fit-to="cover" will make sure that the stage will be fully filled with the frame.  -->
+          <!--  "neighbors.l"/"r" define which frames will be transitioned to upon left/right swipe gestures. -->
+          <div lj-type="frame" lj-name="frame1" lj-fit-to="cover" lj-no-scrolling="true" lj-start-position="center" lj-neighbors.r="frame2">
+                    <div id="company_01">
+                        <div id="company_01_title">The Company</div>
+                        <div id="company_01_hr"><hr></div>
+                        <div id="company_01_grid_2cols">
+                            <div id="company_01_text">
+<p>SoftExpert is a market leader in software and services for business compliance,
+innovation and digital transformation, with more than 300,000 users from 2,000
+organizations in more than 40 countries worldwide.<br></br>
+Founded in 1995, SoftExpert solutions are used by leading corporations in all
+kinds of industries, including manufacturing, automotive, life sciences, food and
+beverage, mining and metals, oil and gas, high-tech and IT, energy and utilities,
+government and public sector, financial services, transportation and logistics,
+and healthcare.<br></br>
+SoftExpert, along with its extensive network of international partners, provides
+hosting, implementation, post-sales support and validation services for all
+solutions to ensure that customers get the maximum value from their
+investments.</p>
+                            </div>
+                        <div id="company_01_img">
+                            <img src="images/graphics.png" alt="">
+                        </div>
+                        </div>
+                    </div>
+
+
+
+
+
+          </div>
+          <div lj-type="frame" lj-name="frame2" lj-fit-to="cover" lj-no-scrolling="true" lj-start-position="center" lj-neighbors.l="frame1" lj-neighbors.r="frame3">
+                <div id="company_02">
+                    <div id="company_02_title">Thinking Global Acting Local</div>
+                    <div id="company_02_hr"><hr></div>
+                <div id="grid-2columns">
+                    <h1>The Company</h1>
+    
+                  <img src="images/map.png" alt="">
+                </div>
+                </div>
+            </div>
+
+
+
+          <div lj-type="frame" lj-name="frame3" lj-fit-to="cover" lj-no-scrolling="true" lj-start-position="center" lj-neighbors.l="frame2" lj-neighbors.r="frame4">
+
+                <div id="company_03">
+                    <div id="company_03_title">Industries</div>
+                    <div id="company_03_hr"><hr></div>
+                <div id="company_03_text">Today, hundreds of customers in a wide range of regulated industries have relied on the SoftExpert integrated corporate governance and process excellence suite to maximize strategic
+                    and operational performance and effectiveness. Every industry has also unique market requirements, business pressures and competitive challenges. SoftExpert professionals develop
+                    in-depth understanding of specific business requirements, rules and constraints that drive every industry sector, providing software solutions that combine industry best practices and
+                    compliance standards with the ability to customize an application to the company's unique needs.
+                <img src="images/industries.png" alt="">
+                </div>
+
+                </div>
+
+            </div>
+
+
+
+
+          <div lj-type="frame" lj-name="frame4" lj-fit-to="cover" lj-no-scrolling="true" lj-start-position="center" lj-neighbors.l="frame3" lj-neighbors.r="frame5">
+
+                <div id="company_04">
+                    <div id="company_04_title">Regulations</div>
+                    <div id="company_04_hr"><hr></div>
+                <div id="company_04_text">Today, hundreds of customers in a wide range of regulated industries have relied on the SoftExpert integrated corporate governance and process excellence suite to maximize strategic
+                    and operational performance and effectiveness. Every industry has also unique market requirements, business pressures and competitive challenges. SoftExpert professionals develop
+                    in-depth understanding of specific business requirements, rules and constraints that drive every industry sector, providing software solutions that combine industry best practices and
+                    compliance standards with the ability to customize an application to the company's unique needs.
+                <img src="images/regulations.png" alt="">
+                </div>
+
+                </div>
+            </div>
+
+
+
+          <div lj-type="frame" lj-name="frame5" lj-fit-to="cover" lj-no-scrolling="true" lj-start-position="center" lj-neighbors.l="frame4" lj-neighbors.r="frame6">
+
+                <div id="company_04">
+                    <div id="company_04_title">Services</div>
+                    <div id="company_04_hr"><hr></div>
+                <div id="company_04_text">Today, hundreds of customers in a wide range of regulated industries have relied on the SoftExpert integrated corporate governance and process excellence suite to maximize strategic
+                    and operational performance and effectiveness. Every industry has also unique market requirements, business pressures and competitive challenges. SoftExpert professionals develop
+                    in-depth understanding of specific business requirements, rules and constraints that drive every industry sector, providing software solutions that combine industry best practices and
+                    compliance standards with the ability to customize an application to the company's unique needs.
+                <img src="images/regulations.png" alt="">
+                </div>
+
+                </div>
+            </div>
+
+
+
+          <div lj-type="frame" lj-name="frame6" lj-fit-to="cover" lj-no-scrolling="true" lj-start-position="center" lj-neighbors.l="frame5" lj-neighbors.r="frame7">
+
+                <div id="company_06">
+                    <div id="company_06_title">Some Customers</div>
+                    <div id="company_06_hr"><hr></div>
+                <div id="company_06_text">
+                <img src="images/some_customers.png" alt="">
+                </div>
+
+                </div>
+            </div>
+
+
+          <div lj-type="frame" lj-name="frame7" lj-fit-to="cover" lj-no-scrolling="true" lj-start-position="center" lj-neighbors.l="frame6" lj-neighbors.r="frame8">
+
+          
+                <div id="company_07">
+                    <div id="company_07_title">The Business Dilemma: Excellence or Extinction?</div>
+                    <div id="company_07_hr"><hr></div>
+                    <div id="company_07_grid_2col">
+                        <div id="company_07_text1">
+                            <h1>The global marketplace</h1>
+                            <li>Fast-growing competition</li>
+                            <li>Shortening product lifecycle</li>
+                            <li>Growing customer demands</li>
+                            <li>Increasing price sensitivity</li>
+                            <li>Reducing customer loyalty</li>
+                            <li>Decreasing employee retention</li>
+                            <li>Growing regulatory pressures</li>
+                            <li>Declining operating margins</li>
+                            <li>Growing economic instability</li>
+                        </div>
+                        <div id="company_07_text2">
+                            <h1>Sucess factors</h1>
+                            <li>Product innovation</li>
+                            <li>Price competitiveness</li>
+                            <li>Product quality</li>
+                            <li>Customer satisfaction</li>
+                            <li>Human capital performance</li>
+                            <li>Operational efficiency</li>
+                            <li>Regulatory compliance</li>
+                            <li>Operational cost</li>
+                            <li>Business profitability</li>
+                        </div>
+
+                    </div>
+            
+                </div>
+            </div>
+
+
+
+          <div lj-type="frame" lj-name="frame8" lj-fit-to="cover" lj-no-scrolling="true" lj-start-position="center" lj-neighbors.l="frame7" lj-neighbors.r="frame9">
+
+                <div id="company_08">
+                    <div id="company_08_title">Business Process and Performance Excellence</div>
+                    <div id="company_08_hr"><hr></div>
+                    <div id="company_08_grid_2cols">
+                        <img src="images/vision_02.png" alt="" id="img_01">
+                        <img src="images/vision_02_02.png" alt="" id="img_02">
+                    </div>
+                </div>
+
+            </div>
+            
+
+
+            <div lj-type="frame" lj-name="frame9" lj-fit-to="cover" lj-no-scrolling="true" lj-start-position="center" lj-neighbors.l="frame8" lj-neighbors.r="frame10">
+            <div id="content"><!--  Dentro desta div, codifique o conteúdo que deseja mostrar!  -->
+                <div id="company_09">
+                    <div id="company_09_title">The Business Excellence Puzzle</div>
+                    <div id="company_09_hr"><hr></div>
+                    <div id="company_09_image_map">
+                        <img src="images/downloads3.png" alt="">
+                    </div>
+                    <div id="company_09_sub_title">Click and learn more about the ideal solution for your company</div>
+                </div>
+
+
+            </div>
+            </div>
+
+
+            <div lj-type="frame" lj-name="frame10" lj-fit-to="cover" lj-no-scrolling="true" lj-start-position="center" lj-neighbors.l="frame9" lj-neighbors.r="frame11">
+                <div id="content"><!--  Dentro desta div, codifique o conteúdo que deseja mostrar!  -->
+                    <div id="company_10">
+                        <div id="company_10_title">The IT Dilemma: Building or Breaking Business Excellence</div>
+                        <div id="company_10_hr"><hr></div>
+                        <div id="company_10_grid_2cols">
+                            <div id="company_10_text">
+                                <p><strong>SoftExpert Excellence Suite</strong> is the most comprehensive solution to
+                                collaboratively solve the most criticai business performance
+                                excellence challenges through an integrated multi-application
+                                environment.
+                                <br></br>
+                                With SoftExpert Excellence Suite, <strong>interconnected applications in a
+                                single collaborative workplace replace many isolated management
+                                systems</strong> that address only a few initiatives of a business, leading to
+                                huge reductions in inefficiencies and errors caused by duplicated
+                                functionality, lack of visibility and inconsistent information.
+                                </p>
+                            </div>
+                            <div id="company_10_img">
+                                <img src="images/sesuitexmultivendor.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div lj-type="frame" lj-name="frame11" lj-fit-to="cover" lj-no-scrolling="true" lj-start-position="center" lj-neighbors.l="frame10" lj-neighbors.r="frame12">
+                <div id="content"><!--  Dentro desta div, codifique o conteúdo que deseja mostrar!  -->
+                    <div id="company_11">
+                        <div id="company_11_title">Breaking the Barriers of Disparate Management Systems</div>
+                        <div id="company_11_hr"><hr></div>
+                        <div id="company_11_image"><img src="images/lightbox.png" alt=""></div>
+                        <div id="company_11_grid_2cols">
+                            <div id="company_11_text1">
+                                <h1>SoftExpert Excellence Suite</h1>
+                                <li>A single unified workplace </li>
+                                <li>A common interface style </li>
+                                <li>Fully integrated data and functionality </li>
+                                <li>Increased productivity and reliability </li>
+                                <li>A single cross-platform portability</li>
+                                <li>One Service levei agreement</li>
+                                <li>One technical support number</li>
+                                <li>One responsible partner </li>
+                                <li>Lower shared licensing and maintenance costs </li>
+                            </div>
+                            <div id="company_11_text2">
+                                <h1>Multiple Vendor Solutions</h1>
+                                <li>Isolated applications</li>
+                                <li>Different user interfaces</li>
+                                <li>Disconnected technologies</li>
+                                <li>Overlapped functionality</li>
+                                <li>Data duplication and redundancy</li>
+                                <li>Long learning times</li>
+                                <li>Mostly conflictive portability</li>
+                                <li>Uncoordinated upgrade cycles</li>
+                                <li>Multiple technical support sources</li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div lj-type="frame" lj-name="frame12" lj-fit-to="cover" lj-no-scrolling="true" lj-start-position="center" lj-neighbors.l="frame11" lj-neighbors.r="frame13">
+                    <div id="company_12">
+                        <div id="company_12_title">Extend your ERP</div>
+                        <div id="company_12_hr"><hr></div>
+                        <div id="company_12_grid_2cols">
+                            <div id="company_12_text">
+                                <p>A well-functioning <strong>ERP system is today a must to run your
+                                company efficiently,</strong> integrating operations such as
+                                financials, sales, purchasing, production, logistics, etc.
+                                <strong>However, clearly an ERP is not enough as it will not be able
+                                to fit many vital business management and compliance
+                                initiatives.</strong><br></br>
+                                Unfortunately, most companies often try this lengthy and
+                                costly mistake, and end up chaotically turning to uncountable
+                                spreadsheets and disparate applications in addition to the
+                                ERP system. <strong>SoftExpert Suite provides a comprehensive set
+                                of natively integrated solutions that extends and optimizes
+                                your ERP system across the enterprise, including a single
+                                unified ERP connector that integrates all SoftExpert
+                                business applications at once, similar to what happens
+                                within the ERP modules</strong></p></div>
+                            <div id="company_12_img"><img src="images/CPT2206100834-872x453 (1).gif" alt=""></div>
+                        </div>
+                    </div>
+
+            </div>
+
+
+            <div lj-type="frame" lj-name="frame13" lj-fit-to="cover" lj-no-scrolling="true" lj-start-position="center" lj-neighbors.l="frame12" lj-neighbors.r="frame14">
+                <div id="content"><!--  Dentro desta div, codifique o conteúdo que deseja mostrar!  -->
+
+                </div>
+                </div>
+
+
+            <div lj-type="frame" lj-name="frame14" lj-fit-to="cover" lj-no-scrolling="true" lj-start-position="center" lj-neighbors.l="frame13" lj-neighbors.r="frame15">
+                <div id="content"><!--  Dentro desta div, codifique o conteúdo que deseja mostrar!  -->
+    
+                </div>
+                </div>
+
+
+
+        </div>
+        <!--  A second layer for the controls -->
+
+        </div>
+      </div>
+</body>
+</html>
