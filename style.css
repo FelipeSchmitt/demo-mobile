@@ -1,0 +1,284 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#home_image{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+#home_image img{
+    width: 100%;
+    height: 100vh;
+}
+#suite_image{
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    width: 100%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+}
+#suite_image img{
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+#align-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#blocks{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    position: absolute;
+    margin-top: 12.5%;
+}
+:root{
+    --textinfo-rosa: #e80e7f;
+    --textinfo-azul: #10c1d1;
+}
+#text-info{
+    display: block;
+    margin: auto;
+    width: 65%;
+    background-color: #1e8fff5e;
+    border-radius: 10px;
+
+    color: #fff;
+    padding: 40px;
+    font-family: 'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+}
+#text-info h1{
+    font-weight: 400;
+    padding: 0 0 0 20px;
+    border-left: 7px solid var(--textinfo-rosa);
+    margin: 0 0 30px 0;
+    line-height: 2;
+    font-size: 42px;
+}
+#textinfo-p{
+    padding: 0 0 0 20px;
+    border-left: 7px solid var(--textinfo-azul);
+    margin: 0 0 20px 0;
+}
+#text-info p{
+    line-height: 1.3;
+    font-size: 22px;
+    font-weight: 300;
+}
+#textinfo-clique p{
+    color: var(--textinfo-azul);
+    font-size: 22px;
+    padding-left: 27px;
+}
+#blocks img{
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-width: 1600px) {
+    #text-info h1{
+        font-weight: 400;
+        padding: 0 0 0 20px;
+        border-left: 7px solid var(--textinfo-rosa);
+        margin: 0 0 30px 0;
+        line-height: 2;
+        font-size: 38px;
+    }
+    #textinfo-p{
+        padding: 0 0 0 20px;
+        border-left: 7px solid var(--textinfo-azul);
+        margin: 0 0 20px 0;
+    }
+    #text-info p{
+        line-height: 1.3;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    #textinfo-clique p{
+        color: var(--textinfo-azul);
+        font-size: 18px;
+        padding-left: 27px;
+    }
+}
+@media screen and (max-width: 1366px) {
+    #text-info{
+        display: block;
+        margin: auto;
+        width: 70%;
+        background-color: #1e8fff5e;
+        border-radius: 10px;
+    
+        color: #fff;
+        padding: 30px;
+        font-family: 'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+    }
+    #text-info h1{
+        font-weight: 400;
+        padding: 0 0 0 20px;
+        border-left: 7px solid var(--textinfo-rosa);
+        margin: 0 0 30px 0;
+        line-height: 2;
+        font-size: 32px;
+    }
+    #textinfo-p{
+        padding: 0 0 0 20px;
+        border-left: 7px solid var(--textinfo-azul);
+        margin: 0 0 20px 0;
+    }
+    #text-info p{
+        line-height: 1.3;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    #textinfo-clique p{
+        color: var(--textinfo-azul);
+        font-size: 16px;
+        padding-left: 27px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    #text-info{
+        display: block;
+        margin: auto;
+        width: 65%;
+        background-color: #1e8fff5e;
+        border-radius: 10px;
+    
+        color: #fff;
+        padding: 30px;
+        font-family: 'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+    }
+    #text-info h1{
+        font-weight: 400;
+        padding: 0 0 0 20px;
+        border-left: 7px solid var(--textinfo-rosa);
+        margin: 0 0 30px 0;
+        line-height: 2;
+        font-size: 30px;
+    }
+    #textinfo-p{
+        padding: 0 0 0 20px;
+        border-left: 7px solid var(--textinfo-azul);
+        margin: 0 0 20px 0;
+    }
+    #text-info p{
+        line-height: 1.3;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    #textinfo-clique p{
+        color: var(--textinfo-azul);
+        font-size: 14px;
+        padding-left: 27px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #text-info{
+        display: block;
+        margin: auto;
+        width: 80%;
+        background-color: #1e8fff5e;
+        border-radius: 10px;
+    
+        color: #fff;
+        padding: 30px;
+        font-family: 'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+    }
+    #text-info h1{
+        font-weight: 400;
+        padding: 0 0 0 20px;
+        border-left: 7px solid var(--textinfo-rosa);
+        margin: 0 0 30px 0;
+        line-height: 2;
+        font-size: 30px;
+    }
+    #textinfo-p{
+        padding: 0 0 0 20px;
+        border-left: 7px solid var(--textinfo-azul);
+        margin: 0 0 20px 0;
+    }
+    #text-info p{
+        line-height: 1.3;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    #textinfo-clique p{
+        color: var(--textinfo-azul);
+        font-size: 14px;
+        padding-left: 27px;
+    }
+    #blocks img{
+        display: block;
+        margin: auto;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 840px) {
+
+    #home_image{
+        position: absolute;
+        width: 100%;
+        height: 160vh;
+        display: flex;
+        align-items: center;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    #home_image img{
+        width: auto;
+        height: 160vh;
+    }
+    #suite_image{
+        width: auto;
+        background-color: rgba(245, 245, 245, 0.85);
+        position: absolute;
+        top: 4vh;
+        padding: 15px;
+        transition: 1s;
+    }
+    #suite_image img{
+        display: block;
+        margin: auto;
+        width: 80%;
+    }
+    #blocks{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        position: absolute;
+        margin-top: 30%;
+    }
+    #text-info{
+        display: block;
+        margin: auto;
+        width: 80%;
+        background-color: #1e8fff5e;
+        border-radius: 10px;
+        margin-top: 40px;
+        color: #fff;
+        padding: 20px;
+        font-family: 'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+    }
+    #blocks img{
+        display: block;
+        margin: auto;
+
+        margin-top: 50px;
+    }
+    
+    #textoinfo-clique p{
+        content: attr("Click and learn more about the ideal solution for your company");
+    }
+}

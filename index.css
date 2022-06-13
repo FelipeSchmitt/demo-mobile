@@ -113,7 +113,7 @@ a{
     margin: auto;
     width: 95%;
     text-align: center;
-    font: 600 36px 'Roboto';
+    font: 600 32px 'Roboto';
     padding: 25px 0 10px 0px;
     color: #056FE0;
 }
@@ -189,7 +189,7 @@ a{
     margin: auto;
     width: 95%;
     text-align: center;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 600;
     color: #056FE0;
     font-family: 'Roboto';
@@ -229,7 +229,7 @@ a{
     margin: auto;
     width: 95%;
     text-align: center;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 600;
     color: #056FE0;
     font-family: 'Roboto';
@@ -266,7 +266,7 @@ a{
     margin: auto;
     width: 95%;
     text-align: center;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 600;
     color: #056FE0;
     font-family: 'Roboto';
@@ -302,7 +302,7 @@ a{
     margin: auto;
     width: 95%;
     text-align: center;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 600;
     color: #056FE0;
     font-family: 'Roboto';
@@ -598,7 +598,7 @@ a{
     margin: auto;
     width: 95%;
     text-align: center;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 600;
     color: #056FE0;
     font-family: 'Roboto';
@@ -636,6 +636,44 @@ a{
     height: auto;
 }
 
+
+/** Estilização separada destinada ao frame 13 do slide!**/
+
+
+#company_13{
+    background-color: #D5E8FF;
+    width: 100vw;
+}
+#company_13_title{
+    margin: auto;
+    width: 95%;
+    text-align: center;
+    font: 600 32px 'Roboto';
+    color: #056FE0;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+#company_13_hr hr{
+    width: 75%;
+    border-color: #C9F0F9;
+}
+#company_13_img{
+    display: block;
+    margin: auto;
+    width: 95%;
+}
+#company_13_img img{
+    width: 100%;
+}
+
+/** Estilização separada destinada ao frame 14 do slide!**/
+
+
+#company_14{
+    background-color: #D5E8FF;
+    width: 100vw;
+    height: 100vh;
+}
 
 
 /** Atenção, para criar novos frames(slides), por favor tente seguir o padrão dos demais, conteúdo sempre dentro da div id #content, crie divs especificas para cada frame, não tente reaproveitar
