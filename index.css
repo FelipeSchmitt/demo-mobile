@@ -64,15 +64,6 @@ div#nav{
     height: 50px!important;
     width: 99%;
 }
-#home, #company, #vision, #solution{
-    width: 100%;
-    text-align: center;
-    color: white;
-    font: 600 24px 'Roboto';
-    line-height: 46px;
-    border-radius: 7px;
-    margin: 2px;
-}
 a{
     text-decoration: none;
     width: 100%;
@@ -89,27 +80,28 @@ a{
 #solution{
     background-color: #AD1B59;
 }
+
+#home, #company, #vision, #solution{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font: 600 12px 'Roboto';
+    line-height: 46px;
+    border-radius: 0px;
+    margin: 2px;
+}
+
+a{
+    text-decoration: none;
+    width: 100%;
+
+}
 #home:hover, #company:hover, #vision:hover, #solution:hover{
     box-shadow: inset 0em 0em 0em 2px white;
     cursor: pointer;
 }
 
-@media screen and (max-width: 840px) {
-    #home, #company, #vision, #solution{
-        width: 100%;
-        text-align: center;
-        color: white;
-        font: 600 13px 'Roboto';
-        line-height: 46px;
-        border-radius: 0px;
-        margin: 2px;
-    }
-    a{
-        text-decoration: none;
-        width: 100%;
-    }
 
-}
 /** Estilização separada destinada ao frame 1 do slide!**/
 
 #company_01{
@@ -118,6 +110,8 @@ a{
 
 }
 #company_01_title{
+    margin: auto;
+    width: 95%;
     text-align: center;
     font: 600 36px 'Roboto';
     padding: 25px 0 10px 0px;
@@ -155,6 +149,8 @@ a{
     height: 100vh;
 }
 #company_02_title{
+    margin: auto;
+    width: 95%;
     text-align: center;
     font: 600 30px 'Roboto';
     padding: 25px 0px 10px 0;
@@ -190,6 +186,8 @@ a{
     height: 100vh;
 }
 #company_03_title{
+    margin: auto;
+    width: 95%;
     text-align: center;
     font-size: 36px;
     font-weight: 600;
@@ -228,6 +226,8 @@ a{
 
 }
 #company_04_title{
+    margin: auto;
+    width: 95%;
     text-align: center;
     font-size: 36px;
     font-weight: 600;
@@ -263,6 +263,8 @@ a{
 
 }
 #company_05_title{
+    margin: auto;
+    width: 95%;
     text-align: center;
     font-size: 36px;
     font-weight: 600;
@@ -297,6 +299,8 @@ a{
     width: 100vw;
 }
 #company_06_title{
+    margin: auto;
+    width: 95%;
     text-align: center;
     font-size: 36px;
     font-weight: 600;
@@ -330,8 +334,11 @@ a{
     width: 100vw;
 }
 #company_07_title{
+    margin: auto;
+    width: 95%;
     text-align: center;
     font-size: 32px;
+    padding: 25px 0px 10px 0px;
     font-weight: 600;
     color: #056FE0;
     font-family: 'Roboto';
@@ -386,6 +393,9 @@ a{
     width: 100vw;
 }
 #company_08_title{
+    margin: auto;
+    width: 95%;
+    padding: 25px 0px 10px 0px;
     text-align: center;
     font: 600 32px 'Roboto';
     color: #056FE0;
@@ -422,6 +432,8 @@ a{
     width: 100vw;
 }
 #company_09_title{
+    margin: auto;
+    width: 95%;
     text-align: center;
     font-size: 56px;
     font-weight: 600;
@@ -451,34 +463,19 @@ a{
     text-align: center;
 }
 
-@media screen and (max-width: 1366px) {
-    #company_09_title{
-        padding-top: 10px;
-        font-size: 32px;
-    }
-    #company_09_image_map img{
-        display: block;
-        margin: auto;
-        width: 80%;
-    }
-    #company_09_sub_title{
-        padding: 8px;
-        font: 600 20px 'Roboto';
-        color: #e68a00;
-        text-align: center;
-    }
-
-
-}
 
 /** Estilização separada destinada ao frame 10 do slide!**/
 
 
 #company_10{
+    margin: auto;
+    width: 95%;
     background-color: #E7FAFD;
     width: 100vw;
 }
 #company_10_title{
+    margin: auto;
+    width: 95%;
     text-align: center;
     font: 600 30px 'Roboto';
     color: #056FE0;
@@ -598,6 +595,8 @@ a{
     width: 100vw;
 }
 #company_12_title{
+    margin: auto;
+    width: 95%;
     text-align: center;
     font-size: 40px;
     font-weight: 600;

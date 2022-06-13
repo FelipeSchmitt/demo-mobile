@@ -484,7 +484,7 @@ $jscomp.polyfill("String.prototype.endsWith", function(e) {
     2: [function(e, m, l) {
         m.exports = {
             version: "default",
-            defaultDuration: "0.2s",
+            defaultDuration: "0.1s",
             transitionParameters: {
                 duration: "t",
                 type: "p",
@@ -1986,7 +1986,7 @@ $jscomp.polyfill("String.prototype.endsWith", function(e) {
             },
             _calcFrameTransform: function(a) {
                 return {
-                    transform: "translate3d(" + -a.shiftX + "px," +  "0px,0px) scale(" +
+                    transform: "translate3d(" + -a.shiftX + "px," + "0px,0px) scale(" +
                         a.scale + ")",
                     opacity: 1
                 }
