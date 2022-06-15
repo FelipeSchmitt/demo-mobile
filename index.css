@@ -721,8 +721,10 @@ a{
     border-radius: 20px;
     margin: 40px auto auto auto;
 }
+#company_13_benefits #box #img{
+    height: 280px;
+}
 #company_13_benefits #box #img img{
-    width: auto;
     height: 100%;
 }
 #company_13_benefits #box #text{
@@ -738,6 +740,18 @@ a{
     font: 500 12px 'Roboto';
     color: #363636;
     line-height: 1.5;
+}
+@media screen and (max-width:370px){
+    #company_13_benefits #box #text h1{
+        font: 800 12px 'Roboto';
+        color: #363636;
+        line-height: 1.5;
+    }
+    #company_13_benefits #box #text p{
+        font: 500 10px 'Roboto';
+        color: #363636;
+        line-height: 1.5;
+    }
 }
 
 /** Estilização separada destinada ao frame 14 do slide!**/
