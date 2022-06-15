@@ -1,3 +1,6 @@
+/* Fonte Roboto do google para as letras. */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 /** Estilização da biblioteca Layer.JS adaptada para nossas necessidades, botões, caixa de slide, etc **/
 
 html {
@@ -107,6 +110,7 @@ a{
 #company_01{
     background-color: #D5E8FF;
     width: 100vw;
+    min-height: 100vh;
 
 }
 #company_01_title{
@@ -146,7 +150,7 @@ a{
 #company_02{
     background-color: #D5F8FB;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
 }
 #company_02_title{
     margin: auto;
@@ -183,7 +187,7 @@ a{
 #company_03{
     background-color: #FFE8DA;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
 }
 #company_03_title{
     margin: auto;
@@ -223,6 +227,7 @@ a{
 #company_04{
     background-color: #D4EEFA;
     width: 100vw;
+    min-height: 100vh;
 
 }
 #company_04_title{
@@ -259,6 +264,7 @@ a{
 #company_05{
     background-color: #D5F8FB;
     width: 100vw;
+    min-height: 100vh;
 
 
 }
@@ -297,6 +303,7 @@ a{
 #company_06{
     background-color: #D5E8FF;
     width: 100vw;
+    min-height: 100vh;
 }
 #company_06_title{
     margin: auto;
@@ -332,6 +339,7 @@ a{
 #company_07{
     background-color: #D5F8FB;
     width: 100vw;
+    min-height: 100vh;
 }
 #company_07_title{
     margin: auto;
@@ -391,6 +399,7 @@ a{
 #company_08{
     background-color: #FCECE2;
     width: 100vw;
+    min-height: 100vh;
 }
 #company_08_title{
     margin: auto;
@@ -430,6 +439,7 @@ a{
 #company_09{
     background-color: #FFFFFF;
     width: 100vw;
+    min-height: 100vh;
 }
 #company_09_title{
     margin: auto;
@@ -469,9 +479,9 @@ a{
 
 #company_10{
     margin: auto;
-    width: 95%;
     background-color: #E7FAFD;
     width: 100vw;
+    min-height: 100vh;
 }
 #company_10_title{
     margin: auto;
@@ -513,6 +523,7 @@ a{
 #company_11{
     background-color: #D5E8FF;
     width: 100vw;
+    min-height: 100vh;
 }
 #company_11_title{
     width: 95%;
@@ -593,6 +604,7 @@ a{
 #company_12{
     background-color: #D5F8FB;
     width: 100vw;
+    min-height: 100vh;
 }
 #company_12_title{
     margin: auto;
@@ -643,6 +655,7 @@ a{
 #company_13{
     background-color: #D5E8FF;
     width: 100vw;
+    min-height: 100vh;
 }
 #company_13_title{
     margin: auto;
@@ -672,7 +685,7 @@ a{
 #company_14{
     background-color: #D5E8FF;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 
