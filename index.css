@@ -717,19 +717,21 @@ a{
     background-color: #F2F8FF;
     border-radius: 20px;
     margin: 40px auto auto auto;
-    height: 270px;
+}
+#company_13_benefits #box #img img{
+    height: 100%;
 }
 #company_13_benefits #box #text{
     margin: auto;
     width: 90%;
 }
 #company_13_benefits #box #text h1{
-    font: 600 18px 'Roboto';
+    font: 800 15px 'Roboto';
     color: #363636;
     line-height: 1.5;
 }
 #company_13_benefits #box #text p{
-    font: 500 13.5px 'Roboto';
+    font: 500 13px 'Roboto';
     color: #363636;
     line-height: 1.5;
 }
