@@ -714,6 +714,7 @@ a{
 }
 #company_13_benefits #box{
     width: 100%;
+    height: 280px;
     display: grid;
     grid-template-columns: 0.2fr 1.8fr;
     background-color: #F2F8FF;
@@ -734,7 +735,7 @@ a{
     line-height: 1.5;
 }
 #company_13_benefits #box #text p{
-    font: 500 13px 'Roboto';
+    font: 500 12px 'Roboto';
     color: #363636;
     line-height: 1.5;
 }
