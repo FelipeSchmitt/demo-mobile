@@ -616,8 +616,8 @@ a{
 #company_11_text1 li{
     width: 95%;
     text-align: left;
-    margin: auto 50px;
-    font: 500 15px 'Roboto';
+    margin: auto 10px;
+    font: 500 14px 'Roboto';
     list-style: none;
     line-height: 2;
 }
@@ -646,8 +646,8 @@ a{
 #company_11_text2 li{
     text-align: left;
     width: 95%;
-    margin: auto 50px;
-    font: 500 15px 'Roboto';
+    margin: auto 10px;
+    font: 500 14px 'Roboto';
     list-style: none;
     line-height: 2;
 }
