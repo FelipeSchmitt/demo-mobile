@@ -211,14 +211,24 @@ a{
     width: 80%;
     margin: auto;
 }
-#company_03_img{
-    display: block;
+#company_03_industries{
+    display: grid;
     margin: auto;
     width: 90%;
+    grid-template-columns: 1fr 1fr;
 }
-#company_03_img img{
-    width: 100%;
+#company_03_industries img{
+    display: block;
+    margin: auto;
+    width: 60%;
 }
+#company_03_industries p{
+    margin: 15px auto 15px auto;
+    text-align: center;
+    font: 500 16px 'Roboto';
+    width: 80%;
+}
+
 
 
 /** Estilização separada destinada ao frame 4 do slide!**/
@@ -414,22 +424,46 @@ a{
 #company_08_hr hr{
     width: 75%;
     border-color: #C9F0F9;
+    margin-bottom: 30px;
 }
 #company_08_grid_2cols{
     display: grid;
     margin: auto;
-    width: 85%;
+    width: 90%;
     grid-template-columns: 1fr;
 }
-#company_08_grid_2cols #img_01{
-    display: block;
-    margin: auto;
+#company_08_text{
     width: 100%;
 }
-#company_08_grid_2cols #img_02{
-    display: block;
-    margin: auto;
-    width: 70%;
+#company_08_text #box{
+    background-color: white;
+    border-radius: 7px;
+    padding: 10px;
+    margin: auto auto auto auto;
+    width: 90%;
+}
+#company_08_text #box h1{
+    font: 600 20px 'Roboto';
+    color: #D01413;
+}
+#company_08_text #box p{
+    font: 400 16px 'Roboto';
+    line-height: 1.5;
+}
+#company_08_text #box li{
+    list-style: none;
+    font: 600 16px 'Roboto';
+    line-height: 2;
+}
+#company_08_text #box_sinais_matematicos{
+    width: 100%;
+    text-align: center;
+    font: 600 60px 'Roboto';
+    color: #363636;
+}
+#company_08 img{
+    margin: 50px auto 50px auto;
+    width: 100%;
 }
 
 
@@ -670,13 +704,34 @@ a{
     width: 75%;
     border-color: #C9F0F9;
 }
-#company_13_img{
+
+#company_13_benefits{
     display: block;
     margin: auto;
     width: 95%;
 }
-#company_13_img img{
+#company_13_benefits #box{
     width: 100%;
+    display: grid;
+    grid-template-columns: 0.2fr 1.8fr;
+    background-color: #F2F8FF;
+    border-radius: 20px;
+    margin: 40px auto auto auto;
+    height: 270px;
+}
+#company_13_benefits #box #text{
+    margin: auto;
+    width: 90%;
+}
+#company_13_benefits #box #text h1{
+    font: 600 18px 'Roboto';
+    color: #363636;
+    line-height: 1.5;
+}
+#company_13_benefits #box #text p{
+    font: 500 13.5px 'Roboto';
+    color: #363636;
+    line-height: 1.5;
 }
 
 /** Estilização separada destinada ao frame 14 do slide!**/
