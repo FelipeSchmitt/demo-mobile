@@ -21,7 +21,7 @@ body{
         height: 100%;
     }
     #suite_image{
-        width: auto;
+        width: 100%;
         background-color: rgba(245, 245, 245, 0.85);
         position: absolute;
         top: 4vh;
