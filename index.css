@@ -120,7 +120,7 @@ a{
     margin: auto;
     width: 95%;
     text-align: center;
-    font: 600 32px 'Roboto';
+    font: 600 28px 'Roboto';
     padding: 25px 0 10px 0px;
     color: #056FE0;
 }
@@ -159,7 +159,7 @@ a{
     margin: auto;
     width: 95%;
     text-align: center;
-    font: 600 30px 'Roboto';
+    font: 600 28px 'Roboto';
     padding: 25px 0px 10px 0;
     color: #056FE0;
 }
@@ -196,12 +196,9 @@ a{
     margin: auto;
     width: 95%;
     text-align: center;
-    font-size: 32px;
-    font-weight: 600;
+    font: 600 28px 'Roboto';
     color: #056FE0;
-    font-family: 'Roboto';
-    padding-top: 25px;
-    padding-bottom: 10px;
+    padding: 25px 0px 10px 0px;
 }
 #company_03_hr hr{
     width: 75%;
@@ -247,12 +244,9 @@ a{
     margin: auto;
     width: 95%;
     text-align: center;
-    font-size: 32px;
-    font-weight: 600;
+    font: 600 28px 'Roboto';
     color: #056FE0;
-    font-family: 'Roboto';
-    padding-top: 25px;
-    padding-bottom: 10px;
+    padding: 25px 0px 10px 0px;
 }
 #company_04_hr hr{
     width: 75%;
@@ -285,12 +279,9 @@ a{
     margin: auto;
     width: 95%;
     text-align: center;
-    font-size: 32px;
-    font-weight: 600;
+    font: 600 28px 'Roboto';
     color: #056FE0;
-    font-family: 'Roboto';
-    padding-top: 25px;
-    padding-bottom: 10px;
+    padding: 25px 0px 10px 0px;
 }
 #company_05_hr hr{
     width: 75%;
@@ -322,12 +313,9 @@ a{
     margin: auto;
     width: 95%;
     text-align: center;
-    font-size: 32px;
-    font-weight: 600;
+    font: 600 28px 'Roboto';
     color: #056FE0;
-    font-family: 'Roboto';
-    padding-top: 25px;
-    padding-bottom: 10px;
+    padding: 25px 0px 10px 0px;
 }
 #company_06_hr hr{
     width: 75%;
@@ -358,11 +346,9 @@ a{
     margin: auto;
     width: 95%;
     text-align: center;
-    font-size: 32px;
+    font: 600 28px 'Roboto';
     padding: 25px 0px 10px 0px;
-    font-weight: 600;
     color: #056FE0;
-    font-family: 'Roboto';
 }
 #company_07_hr hr{
     width: 75%;
@@ -419,7 +405,7 @@ a{
     width: 95%;
     padding: 25px 0px 10px 0px;
     text-align: center;
-    font: 600 32px 'Roboto';
+    font: 600 28px 'Roboto';
     color: #056FE0;
 
 
@@ -483,10 +469,8 @@ a{
     margin: auto;
     width: 95%;
     text-align: center;
-    font-size: 56px;
-    font-weight: 600;
+    font: 600 28px 'Roboto';
     color: #056FE0;
-    font-family: 'Roboto';
     padding-top: 25px;
     padding-bottom: 10px;
 }
@@ -525,10 +509,9 @@ a{
     margin: auto;
     width: 95%;
     text-align: center;
-    font: 600 30px 'Roboto';
+    font: 600 28px 'Roboto';
     color: #056FE0;
-    padding-top: 25px;
-    padding-bottom: 10px;
+    padding: 25px 0px 10px 0px;
 }
 #company_10_hr hr{
     width: 75%;
@@ -568,10 +551,9 @@ a{
     width: 95%;
     margin: auto;
     text-align: center;
-    font: 600 30px 'Roboto';
+    font: 600 28px 'Roboto';
     color: #056FE0;
-    padding-top: 25px;
-    padding-bottom: 10px;
+    padding: 25px 0px 10px 0px;
 }
 #company_11_hr hr{
     width: 75%;
@@ -667,12 +649,9 @@ a{
     margin: auto;
     width: 95%;
     text-align: center;
-    font-size: 32px;
-    font-weight: 600;
+    font: 600 28px 'Roboto';
     color: #056FE0;
-    font-family: 'Roboto';
-    padding-top: 25px;
-    padding-bottom: 10px;
+    padding: 25px 0px 10px 0px;
 }
 #company_12_hr hr{
     width: 75%;
@@ -718,10 +697,9 @@ a{
     margin: auto;
     width: 95%;
     text-align: center;
-    font: 600 32px 'Roboto';
+    font: 600 28px 'Roboto';
     color: #056FE0;
-    padding-top: 25px;
-    padding-bottom: 10px;
+    padding: 25px 0px 10px 0px;
 }
 #company_13_hr hr{
     width: 75%;
