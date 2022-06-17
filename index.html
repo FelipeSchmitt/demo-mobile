@@ -8,13 +8,14 @@
 
 <script>
 
+     window.onload = screen_size
+     window.onresize= screen_size
 
-//     window.onresize = function(){
-//        location.reload()
-//         if(window.matchMedia("(min-width: 841px)").matches){
-//             window.location.href="INDEX-demo-corporativa.html"	
-//         }
-// };
+     function screen_size(){
+         if(window.matchMedia("(min-width: 841px)").matches){
+             window.location.href="INDEX-demo-corporativa.html"	
+         }
+ };
 
 </script>
     <script src="index.js"></script>

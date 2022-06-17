@@ -96,13 +96,12 @@ body{
         width: 90%;
         padding: 5%;
         margin: 0;
-        transition: 1s;
 
 
     }
     #block-box-solution img:hover{
         transition: 0.4s;
         cursor: pointer;
-        box-shadow: 0 0 40px white inset;
-        background-color: #257ECA;
+        background-color: #0e6ebd4f;
+        clip-path: polygon(23% 0%, 77% 0%, 103% 50%, 77% 100%, 23% 100%, -3% 50%);
     }

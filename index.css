@@ -444,6 +444,9 @@ a{
     font: 600 16px 'Roboto';
     line-height: 2;
 }
+#company_08_text #box li::before{
+    content:url('images/ok.png');
+}
 #company_08_text #box_sinais_matematicos{
     width: 100%;
     text-align: center;
