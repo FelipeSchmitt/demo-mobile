@@ -665,7 +665,7 @@ a{
 
 
 #vision_12{
-    background-color: #D5F8FB;
+    background-color: rgb(255, 253, 253);
     width: 100vw;
     min-height: 100vh;
 }
@@ -684,13 +684,13 @@ a{
 #vision_12_grid_2cols{
     display: grid;
     margin: 20px auto 0 auto;
-    width: 85%;
+    width: 100%;
     grid-template-columns: 1fr;
 }
 #vision_12_text{
+    width: 85%;
     display: block;
     margin: auto;
-    width: 100%;
     font: 400 18px 'Roboto';
     color: black;
     text-align: justify;
@@ -703,7 +703,7 @@ a{
 }
 #vision_12_img img{
     display: block;
-    margin: auto;
+    margin: auto auto 20px auto;
     width: 100%;
     height: auto;
 }

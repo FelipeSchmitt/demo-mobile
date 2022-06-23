@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="js/analytics.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" type="image/x-icon" href="ico/xxicon-softexpert-site.webp">
@@ -9,15 +10,15 @@
 
 <script>
 
-    window.onload = screen_size
-    window.onresize= screen_size
+     window.onload = screen_size
+     window.onresize= screen_size
 
-    function screen_size(){
-        if(window.matchMedia("(min-width: 841px)").matches){
-            document.body.style.display="none"
-            window.location.href="INDEX-demo-corporativa.html"	
-        }
-};
+     function screen_size(){
+         if(window.matchMedia("(min-width: 840px)").matches){
+             document.body.style.display="none"
+             window.location.href="INDEX-demo-corporativa.html"	
+         }
+ };
 
 </script>
     <script src="js/index.js"></script>
@@ -29,12 +30,11 @@
 
     <div lj-type="layer" lj-native-scroll="false" id="arrows">
         <div id="nav">
-            <a href="#company01"><div id="home">Home</div></a>
-            <a href="#company04"><div id="company">Company</div></a>
+            <a href="#company01"><div id="company">Company</div></a>
             <a href="#vision07"><div id="vision">Vision</div></a>
             <a href="#solution14"><div id="solution">Solution</div></a>
-            <a class="btn-left btn" id="btn-left" href="#slider.!left&p=right"> < </a>
-            <a class="btn-right btn" id="btn-right" href="#slider.!right&p=left"> > </a>
+            <a class="btn-left btn" id="btn-left" href="#slider.!left&p=right">&lt;</a>
+            <a class="btn-right btn" id="btn-right" href="#slider.!right&p=left">&gt;</a>
       <!--  The control frame. The frame will be centered in the stage. -->
         <!--  the link will trigger the transition to the previous frame of the currently active frame in layer "slider". -->
     </div>
@@ -251,7 +251,7 @@ their markets.</strong></p>
                     <div id="company_06_title">Some Customers</div>
                     <div id="company_06_hr"><hr></div>
                 <div id="company_06_text">
-                <img src="images/some_customers.png" alt="">
+                <img src="images/some_customers.png" alt="" loading="lazy">
                 </div>
 
                 </div>
@@ -459,7 +459,7 @@ their markets.</strong></p>
                                 unified ERP connector that integrates all SoftExpert
                                 business applications at once, similar to what happens
                                 within the ERP modules</strong></p></div>
-                            <div id="vision_12_img"><img src="images/erp.png" alt=""></div>
+                            <div id="vision_12_img"><img src="images/suitexerp.gif" alt="suite erp" loading="lazy"></div>
                         </div>
                     </div>
 
@@ -591,7 +591,7 @@ their markets.</strong></p>
         <div id="final_15">
             <img src="images/softexpert-banner.jpg" alt="">
             <div id="contacts"><p>sales@softexpert.com | www.softexpert.com</p></div>
-            <div id="footer"><p>Disclaimer: The content of this publication may rot, in whole or in part, be copied or reproduced without prior authorization from SoftExport Software. This publication is provided by SoftE*pert ano/or its network of affiliates strictly for informartional purposes, without any guarantee of any kind. The only guarantees related to SoflExpert products ano services are those contained with n a contrast. Some product timet onal ties and eharacterist cs presented herein may be optional or may depend on the makeup of the offer(s) acqu red. The content of this material is subject to change without prior notice.</p></div>
+            <div id="footer"><p>Disclaimer: The content of this publication may not, in whole or in part, be copied or reproduced without prior authorization from SoftExport Software. This publication is provided by SoftExpert and/or its network of affiliates strictly for informational purposes, without any guarantee of any kind. The only guarantees related to SoftExpert products ano services are those contained within a contract. Some product funcionalities and characteristics presented herein may be optional or may depend on the makeup of the offer(s) acquired. The content of this material is subject to change without prior notice.</p></div>
         </div>
         </div>
       </div>
