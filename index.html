@@ -5,13 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loading...</title>
+    <style>
+        body{
+            background-color: black;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        img{
+            width: 60px;
+            height: 60px;
+            margin: 30vh auto auto auto;
+        }
+
+    </style>
 </head>
-<body style="background-color: black;height: 100%;display: flex; justify-content: center; align-items: center;overflow: hidden;">
-<img src="images/loading.gif" alt="loading..." style=" width: 80px; height: 80px;margin-top: 30vh">
+<body>
+<img src="images/loading.gif" alt="loading...">
 <script>
 
 
-    setTimeout('screen_size()', 400)
+    setTimeout('screen_size()', 700)
 
         function screen_size(){
             if(window.matchMedia("(max-width: 841px)").matches){
